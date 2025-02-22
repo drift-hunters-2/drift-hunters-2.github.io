@@ -837,7 +837,7 @@ li {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     top: 120%;
     margin-top: 10px;
-    background: rgba(8, 3, 37, .8);
+    background: #08032566;
     border-radius: 0 0 6px 6px;
     border-top: none;
     -webkit-transition: all 0.4s ease 0s;
