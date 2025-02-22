@@ -861,7 +861,7 @@ li {
 .dropdown:hover ul {
     z-index: 1000;
     pointer-events: auto;
-    opacity: 1;
+    opacity: 10;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     top: 100%;
     border-radius: 20px;
