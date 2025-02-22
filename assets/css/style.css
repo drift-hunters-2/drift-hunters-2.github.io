@@ -2122,7 +2122,7 @@ span.is-active {
 /*================================================
 14 - FOOTER AREA CSS
 ==================================================*/
-.footer-bottom {
+    .footer-bottom {
         background: 000;
         padding-bottom: 30px;
         text-align: center;
