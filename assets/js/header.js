@@ -25,6 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
                             <a href="https://basket-random.io/car/index.html" class="nav-link">Car</a>
                         </li>
                         <li class="nav-item">
+                            <a href="https://basket-random.io/sport/index.html" class="nav-link">Sport</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="https://basket-random.io/2-player-games/index.html" class="nav-link">2 Player Games</a>
                         </li>
                         <li class="nav-item dropdown">
@@ -33,8 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <li><a class="dropdown-item" href="https://basket-random.io/idle/index.html">Idle</a></li>
                                 <li><a class="dropdown-item" href="https://basket-random.io/shooting/index.html">Shooting</a></li>
                                 <li><a class="dropdown-item" href="https://basket-random.io/skill/index.html">Skill</a></li>
-                                <li><a class="dropdown-item" href="https://basket-random.io/sport/index.html">Sport</a></li>
-                                <li><a class="dropdown-item" href="https://basket-random.io/classroom6x/index.html">Classroom 6x</a></li>
                                 <li><a class="dropdown-item" href="https://basket-random.io/2-player-games/index.html">2 Player Games</a></li>
                             </ul>
                         </li>
