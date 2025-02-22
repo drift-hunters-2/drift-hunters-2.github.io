@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://faf-games.github.io/sitemap.xml
