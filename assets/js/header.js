@@ -25,9 +25,6 @@ document.addEventListener("DOMContentLoaded", function() {
                             <a href="https://basket-random.io/car/index.html" class="nav-link">Car</a>
                         </li>
                         <li class="nav-item">
-                            <a href="https://basket-random.io/game/1v1-lol.html" class="nav-link">1v1.lol Unblocked</a>
-                        </li>
-                        <li class="nav-item">
                             <a href="https://basket-random.io/2-player-games/index.html" class="nav-link">2 Player Games</a>
                         </li>
                         <li class="nav-item dropdown">
