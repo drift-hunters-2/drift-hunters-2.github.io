@@ -1466,7 +1466,8 @@ span.is-active {
 }
 
 .games-thumb {
-    position: relative
+    position: relative;
+    background: #7c5636
 }
 
 .games-thumb-image {
