@@ -857,6 +857,7 @@ li {
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     top: 100%;
+    border-radius: 20px;
 }
 
 .lang-menu a {
