@@ -63,9 +63,13 @@ This files contents are outlined below >>>>
 02 - DEFAULT CSS
 ==================================================*/
 
-body.dark-mode {
+.dark-mode {
     background-color: #121212;
     color: white;
+}
+
+.dark-mode a {
+    color: #ff4081; /* Change link colors in dark mode */
 }
 
 /* Smooth animation effect */
