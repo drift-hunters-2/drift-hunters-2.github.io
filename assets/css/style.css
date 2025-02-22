@@ -2122,6 +2122,47 @@ span.is-active {
 /*================================================
 14 - FOOTER AREA CSS
 ==================================================*/
+.footer-bottom {
+        background: 000;
+        padding-bottom: 30px;
+        text-align: center;
+        color: white;
+	background: #381A00;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        width: 40%;
+        transition: transform 0.3s ease-in-out;
+	margin: 1rem;
+    }
+
+    .footer-logo img:hover {
+        transform: scale(1.1);
+    }
+
+    .footer-social a {
+        color: white;
+        font-size: 18px;
+        margin: 0 10px;
+        transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    }
+
+    .footer-social a:hover {
+        color: #ff4081;
+        transform: scale(1.2);
+    }
+
+    .copyright p {
+        margin-top: 10px;
+        font-size: 14px;
+        opacity: 0.8;
+    }
 .fag-footer {
     position: relative;
     background: url(../img/footer_bg.jpg) no-repeat fixed center center/cover;
