@@ -65,8 +65,14 @@ This files contents are outlined below >>>>
 
 
 
-* {
+/* Smooth animation effect */
+.navbar-brand img {
+    transition: transform 0.3s ease-in-out;
+}
 
+/* Hover effect: Increases size when mouse is over it */
+.navbar-brand:hover img {
+    transform: scale(1.1); /* Makes logo 10% bigger */
 }
 
 .lazy {
