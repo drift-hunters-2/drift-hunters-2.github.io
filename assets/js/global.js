@@ -1,22 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // 🌙 Dark Mode Toggle
-    const toggleTheme = document.getElementById("theme-toggle");
-
-    if (toggleTheme) {
-        // Load saved theme from local storage
-        if (localStorage.getItem("theme") === "dark") {
-            document.documentElement.classList.add("dark-mode");
-        }
-
-        // Toggle theme on button click
-        toggleTheme.addEventListener("click", function () {
-            document.documentElement.classList.toggle("dark-mode");
-            localStorage.setItem(
-                "theme",
-                document.documentElement.classList.contains("dark-mode") ? "dark" : "light"
-            );
-        });
-    }
 
     // 🔼 Scroll-to-Top Button
     const scrollToTop = document.createElement("button");
