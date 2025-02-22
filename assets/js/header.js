@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         <li class="nav-item">
                             <a href="https://basket-random.io/sport/index.html" class="nav-link">Sport</a>
                         </li>
+                         <li class="nav-item active">
+                            <a href="https://basket-random.io/game/basket-random.html" class="nav-link">Basket Random</a>
+                        </li>
                         <li class="nav-item">
                             <a href="https://basket-random.io/2-player-games/index.html" class="nav-link">2 Player Games</a>
                         </li>
