@@ -1,44 +1,61 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // 🌙 Dark Mode Toggle
     const toggleTheme = document.getElementById("theme-toggle");
 
     if (toggleTheme) {
         // Load saved theme from local storage
         if (localStorage.getItem("theme") === "dark") {
-            document.body.classList.add("dark-mode");
+            document.documentElement.classList.add("dark-mode");
         }
 
-        // Toggle dark mode on button click
+        // Toggle theme on button click
         toggleTheme.addEventListener("click", function () {
-            document.body.classList.toggle("dark-mode");
-            localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+            document.documentElement.classList.toggle("dark-mode");
+            localStorage.setItem(
+                "theme",
+                document.documentElement.classList.contains("dark-mode") ? "dark" : "light"
+            );
         });
     }
 
-    // Create scroll-to-top button
+    // 🔼 Scroll-to-Top Button
     const scrollToTop = document.createElement("button");
     scrollToTop.id = "scroll-to-top";
     scrollToTop.innerHTML = "↑";
-    scrollToTop.style.position = "fixed";
-    scrollToTop.style.bottom = "20px";
-    scrollToTop.style.right = "20px";
-    scrollToTop.style.display = "none";
-    scrollToTop.style.padding = "10px";
-    scrollToTop.style.border = "none";
-    scrollToTop.style.background = "#ff4081";
-    scrollToTop.style.color = "white";
-    scrollToTop.style.cursor = "pointer";
-    scrollToTop.style.borderRadius = "5px";
-    scrollToTop.style.fontSize = "18px";
-
     document.body.appendChild(scrollToTop);
+
+    // ✅ Improved Styling (CSS in JavaScript)
+    Object.assign(scrollToTop.style, {
+        position: "fixed",
+        bottom: "20px",
+        right: "20px",
+        display: "none",
+        padding: "10px",
+        border: "none",
+        background: "#ff4081",
+        color: "white",
+        cursor: "pointer",
+        borderRadius: "50%",
+        fontSize: "20px",
+        width: "45px",
+        height: "45px",
+        textAlign: "center",
+        lineHeight: "40px",
+        boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+        transition: "opacity 0.3s, transform 0.3s",
+    });
+
+    // Hover effect
+    scrollToTop.addEventListener("mouseover", () => {
+        scrollToTop.style.transform = "scale(1.1)";
+    });
+    scrollToTop.addEventListener("mouseleave", () => {
+        scrollToTop.style.transform = "scale(1)";
+    });
 
     // Show/hide button on scroll
     window.addEventListener("scroll", function () {
-        if (window.scrollY > 300) {
-            scrollToTop.style.display = "block";
-        } else {
-            scrollToTop.style.display = "none";
-        }
+        scrollToTop.style.display = window.scrollY > 300 ? "block" : "none";
     });
 
     // Scroll to top on click
