@@ -63,7 +63,10 @@ This files contents are outlined below >>>>
 02 - DEFAULT CSS
 ==================================================*/
 
-
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
 
 /* Smooth animation effect */
 .navbar-brand img {
