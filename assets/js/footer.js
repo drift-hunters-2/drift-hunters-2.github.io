@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <h3>Contact Us</h3>
                                 <div class="footer-contact">
                                     <h4 class="title"><i class="fa fa-envelope"></i> Email Address</h4>
-                                    <p><a href="mailto:junaidsitenative@gmail.com">benhanry542@gmail.com</a></p>
+                                    <p><a href="mailto:benhanry543@gmail.com">benhanry542@gmail.com</a></p>
                                 </div>
                                 <div class="footer-contact">
                                     <h4 class="title"><i class="fab fa-whatsapp"></i> Whatsapp</h4>
