@@ -39,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function() {
                                 <li><a class="dropdown-item" href="https://basket-random.io/idle/index.html">Idle</a></li>
                                 <li><a class="dropdown-item" href="https://basket-random.io/shooting/index.html">Shooting</a></li>
                                 <li><a class="dropdown-item" href="https://basket-random.io/skill/index.html">Skill</a></li>
-                                <li><a class="dropdown-item" href="https://basket-random.io/2-player-games/index.html">2 Player Games</a></li>
                             </ul>
                         </li>
                     </ul>
