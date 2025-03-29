@@ -1,20 +1,5 @@
 // Backlinks Go Here!
-const backlinksList= [{
-  link: "https://ubg44.github.io/car-games.html",
-  text: "CAR",
-}, {
-  link: "https://ubg44.github.io/jump-run-games.html",
-  text: "JUMP & RUN",
-}, {
-  link: "https://ubg44.github.io/shooting-games.html",
-  text: "SHOOTING",
-}, {
-  link: "https://ubg44.github.io/sports-games.html",
-  text: "SPORTS",
-}, {
-  link: "https://ubg44.github.io/idle-games.html",
-  text: "IDLE",
-},];
+
 
 function inFrame () {
   try {
