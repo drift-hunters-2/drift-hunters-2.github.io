@@ -26,6 +26,35 @@
 
   gtag('config', 'G-X93T1595HB');
 </script>
+<style>
+.game-layout{
+  display: grid;
+  grid-template-columns: 160px 1fr 160px;
+  gap: 12px;
+  align-items: start;
+}
+
+.side-ad .ad-slot{
+  width: 160px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.game-center{
+  min-width: 0;
+}
+
+/* Hide ads on small screens */
+@media (max-width: 1100px){
+  .game-layout{
+    grid-template-columns: 1fr;
+  }
+  .side-ad{
+    display: none;
+  }
+}
+</style>
+	
 </head>
 
 <body><!--MENU-->
